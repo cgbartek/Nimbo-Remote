@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+ xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+   android:background="@drawable/backgroudlogin"
+  >
+<LinearLayout
+ 
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:background="@drawable/backgroudlogin"
+  >
+  
+  
+<TextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="LOGIN SCREEN"
+android:textSize="25dip"
+android:textColor="#ffcc44"
+android:gravity="center"
+android:layout_marginTop="15dip"
+/>  
+<Spinner
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:id="@+id/spinner"
+ android:layout_marginTop="15dip"
+android:layout_marginLeft="25dip"
+/>
+
+ <LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:layout_marginTop="20dip"
+android:padding="10dip"
+  >
+  
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="USER ID:"
+android:textSize="15dip"
+android:textColor="#000000"
+android:layout_marginLeft="10dip"
+/> 
+<EditText
+android:id="@+id/user_id"
+android:layout_width="180dip"
+android:layout_height="wrap_content"
+android:hint="user id"
+android:layout_marginLeft="25dip"
+
+/> 
+  
+
+  </LinearLayout>
+  <LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:layout_marginTop="15dip"
+  >
+  
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="PASSWORD:"
+android:textSize="15dip"
+android:textColor="#000000"
+android:layout_marginLeft="10dip"
+/> 
+<EditText
+android:id="@+id/user_psw"
+android:layout_width="180dip"
+android:layout_height="wrap_content"
+android:hint="Password"
+android:layout_marginLeft="15dip"
+/> 
+  
+
+  </LinearLayout> 
+  
+    <LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:layout_marginTop="20dip"
+android:gravity="center"
+  >
+  
+<CheckBox
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/check_remember"
+android:text="Remember"
+android:textColor="#000000"
+/> 
+
+  </LinearLayout> 
+  
+  <Button
+android:id="@+id/login_btn"
+android:layout_width="150dip"
+android:layout_height="wrap_content"
+android:layout_marginLeft="15dip"
+android:text="LOGIN"
+android:layout_gravity="center_horizontal"
+android:layout_marginTop="15dip"
+/> 
+  
+  
+</LinearLayout>
+</ScrollView>

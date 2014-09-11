@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+<EditTextPreference android:key="server"
+
+ android:title="Host name"
+ android:defaultValue="http://web2.anzleads.com/Android/nimboPani/web-service.php"
+android:singleLine="true"
+ android:summary="Enter host name">
+ </EditTextPreference>
+
+<EditTextPreference android:key="devicename"
+ android:title="Device name"
+ android:singleLine="true"
+ android:summary="Enter device name">
+ </EditTextPreference>
+ 
+<EditTextPreference android:key="username"
+android:title="User name"
+android:singleLine="true"
+ android:summary="Enter user name">
+ </EditTextPreference>
+
+<EditTextPreference android:key="userpassword"
+android:title="User Password"
+android:inputType="textPassword"
+android:singleLine="true"
+ android:summary="Enter user password">
+ </EditTextPreference>
+
+
+</PreferenceScreen>

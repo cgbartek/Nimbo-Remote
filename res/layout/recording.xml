@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/recordbackgroung"
+  >
+  <TextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="RECORDING SCREEN"
+android:textSize="25dip"
+android:textColor="#ffcc44"
+android:gravity="center"
+android:layout_marginTop="15dip"
+/>  
+<Spinner
+android:layout_height="wrap_content"
+android:layout_width="wrap_content"
+android:id="@+id/spinnerrecord"
+ android:layout_marginTop="25dip"
+android:layout_marginLeft="25dip"
+/>
+  <LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_marginTop="30dip"
+android:gravity="right"
+android:padding="20dip"
+  >
+  <Button
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/record"  
+ android:text="RECORD" 
+
+  />
+   <Button
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:id="@+id/recordstop"  
+ android:text="RECORD STOP" 
+
+  />
+</LinearLayout>  
+</LinearLayout>

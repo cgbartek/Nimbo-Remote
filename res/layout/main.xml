@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<WebView
+android:id="@+id/webview_nimbomain"
+android:layout_width="fill_parent"
+android:layout_height="400dip"
+/>
+<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+
+<Button
+android:id="@+id/itrcom_nimbomain"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="ITRCOM"
+android:textSize="15dip"
+/>
+
+<Button
+android:id="@+id/voice_nimbomain"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="VOICE"
+android:textSize="15dip"
+
+/>
+
+
+</LinearLayout>
+<TextView
+android:id="@+id/textDevice"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textColor="#ffffff"
+android:layout_gravity="center"
+android:textSize="20px"
+android:hint="device id"
+/>
+
+</LinearLayout>
+
+</ScrollView>
+
+
